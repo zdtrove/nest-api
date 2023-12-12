@@ -1,0 +1,11 @@
+runtime: nodejs18
+
+env_variables:
+  DB_URI: 'mongodb+srv://antnh:721904791992@cluster0.85ili1o.mongodb.net/nest-api?retryWrites=true&w=majority'
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
